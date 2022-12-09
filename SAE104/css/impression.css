@@ -1,0 +1,22 @@
+@media print {
+  body {
+    transform: scale(90%);
+    filter: contrast(1.75);
+    zoom: 60%;
+  }
+  header{
+    display: none;
+  }
+  table {
+    page-break-inside: avoid;
+  }
+  .boutton{
+    display:none;
+  }
+  footer{
+    opacity: 0%;
+  }
+  @viewport{
+    width=initial;
+  }
+}
